@@ -1,0 +1,86 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "TwitterBOT/1.0.0": {
+        "dependencies": {
+          "System.Reactive": "4.4.1",
+          "TweetSharp": "2.3.1",
+          "System.Reactive.Reference": "4.4.0.0"
+        },
+        "runtime": {
+          "TwitterBOT.dll": {}
+        }
+      },
+      "Newtonsoft.Json/5.0.6": {
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {
+            "assemblyVersion": "4.5.0.0",
+            "fileVersion": "5.0.6.16206"
+          }
+        }
+      },
+      "System.Reactive/4.4.1": {},
+      "TweetSharp/2.3.1": {
+        "dependencies": {
+          "Newtonsoft.Json": "5.0.6"
+        },
+        "runtime": {
+          "lib/4.0/Hammock.ClientProfile.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/4.0/TweetSharp.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "System.Reactive.Reference/4.4.0.0": {
+        "runtime": {
+          "System.Reactive.dll": {
+            "assemblyVersion": "4.4.0.0",
+            "fileVersion": "4.4.1.57983"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TwitterBOT/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/5.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Z594WlU7Wndv4vQxwsS7ym2y2Izsuw5U86UxQbx6YIKIjVju7V7OU4l1QQl5fM9AmPdzWIOxSlonzuQzzulMaw==",
+      "path": "newtonsoft.json/5.0.6",
+      "hashPath": "newtonsoft.json.5.0.6.nupkg.sha512"
+    },
+    "System.Reactive/4.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iSTPeWR9HJhGoNV4WhVlvofuiTjpok1i4E3LPgMdbMqf3jKhFlT9HAlO32lb52NLppWC/4dZQFfUzTytvyXBmw==",
+      "path": "system.reactive/4.4.1",
+      "hashPath": "system.reactive.4.4.1.nupkg.sha512"
+    },
+    "TweetSharp/2.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0iN3kZ+idHMZ2L9F1Hxnt4kCO4s53hfLu+erANQhP3chwsRrEgGjCpjo9OOM27sHCKNHd9e9iSrymQ9EtXlUOQ==",
+      "path": "tweetsharp/2.3.1",
+      "hashPath": "tweetsharp.2.3.1.nupkg.sha512"
+    },
+    "System.Reactive.Reference/4.4.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
